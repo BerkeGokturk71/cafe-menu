@@ -1,0 +1,175 @@
+{
+    "categories": [
+        {
+            "name": "S\u0131cak \u0130\u00e7ecekler",
+            "image": "images\/1.jpg",
+            "items": [
+                 {
+                    "name": "Midye",
+                    "image": "images\/3.jpg",
+                    "price": 30
+                },
+                 {
+                    "name": "S\u00fctl\u00fc Kahve",
+                    "image": "images\/1.jpg",
+                    "price": 40
+                },
+                {
+                    "name": "T\u00fcrk Kahvesi",
+                    "image": "images\/1.jpg",
+                    "price": 50
+                },
+                 {
+                    "name": "Espresso",
+                    "image": "images\/1.jpg",
+                    "price": 35
+                },
+                 {
+                    "name": "S\u00fctl\u00fc Kahve",
+                    "image": "images\/1.jpg",
+                    "price": 40
+                },
+                 {
+                    "name": "S\u0131cak \u00c7ikolata",
+                    "image": "images\/1.jpg",
+                    "price": 30
+                },
+                 {
+                    "name": "Berke kurs",
+                    "image": "images\/WhatsApp Image 2024-01-07 at 12.43.28.jpeg",
+                    "price": 0
+                }
+                
+        ]
+        },
+        {
+            "name": "So\u011fuk \u0130\u00e7ecekler",
+            "image": "images\/3.jpg",
+            "items": [
+                {
+                    "name": "Su",
+                    "price": 5
+                },
+                {
+                    "name": "Soda",
+                    "price": 12
+                },
+                {
+                    "name": "Ayran",
+                    "price": 8
+                },
+                {
+                    "name": "Coca-Cola",
+                    "price": 25
+                },
+                {
+                    "name": "Fanta",
+                    "price": 25
+                },
+                {
+                    "name": "Sprite",
+                    "price": 25
+                },
+                {
+                    "name": "IceTea",
+                    "price": 20
+                },
+                {
+                    "name": "RedBull",
+                    "price": 30
+                }
+            ]
+        },
+        {
+            "name": "Nargileler",
+            "image": "images\/1.jpg",
+            "items": [
+                {
+                    "name": "Karpuzlu Nargile",
+                    "price": 250
+                },
+                {
+                    "name": "Naneli Nargile",
+                    "price": 250
+                },
+                {
+                    "name": "\u00dcz\u00fcml\u00fc Nargile",
+                    "price": 250
+                },
+                {
+                    "name": "Yabanmersinli Nargile",
+                    "price": 250
+                }
+            ]
+        },
+        {
+            "name": "\u00c7erezler",
+            "image": "images\/2.jpg",
+            "items": [
+                {
+                    "name": "\u00c7erez Taba\u011f\u0131",
+                    "price": 40
+                },
+                {
+                    "name": "Kuruyemi\u015f Taba\u011f\u0131",
+                    "price": 80
+                },
+                {
+                    "name": "\u00c7ekirdek Taba\u011f\u0131",
+                    "price": 20
+                }
+            ]
+        },
+        {
+            "name": "FastFood",
+            "image": "images\/1.jpg",
+            "items": [
+                {
+                    "name": "Hamburger",
+                    "price": 100
+                },
+                {
+                    "name": "Tost",
+                    "price": 50
+                },
+                {
+                    "name": "Kumru",
+                    "price": 70
+                },
+                {
+                    "name": "Hamburger Men\u00fc",
+                    "price": 150
+                }
+            ]
+        },
+        {
+            "name": "Dondurmalar",
+            "image": "images\/2.jpg",
+            "items": [
+                {
+                    "name": "Kase Dondurma",
+                    "price": 80
+                },
+                {
+                    "name": "K\u00fclah Dondurma",
+                    "price": 30
+                }
+            ]
+        },
+        {
+            "name": "Test",
+            "image": "images\/WhatsApp Image 2023-08-19 at 01.37.30.jpeg",
+            "items": []
+        },
+        {
+            "name": "deneme",
+            "image": "images\/Brown Illustration Coffee Menu.png",
+            "items": []
+        },
+        {
+            "name": "Python Kursu",
+            "image": "images\/WhatsApp Image 2023-11-22 at 21.20.36 (3).jpeg",
+            "items": []
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: rgb(240, 248, 255);
+    color: rgb(27, 20, 36);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(240, 248, 255);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+html {
+    background: linear-gradient(to bottom right, #AFEEEE 10%, #FFF9EB 40%, #AFEEEE 80%);
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+#giris {
+    width: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+h2 {
+    font-size: 23px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    padding: 3px 20px;
+    font-size: 12px;
+    color: rgb(255, 255, 255, 0.75);
+}
+
+a {
+    text-decoration: none;
+}
+
+.sosyal {
+    bottom: 0;
+    margin-top: 50px;
+    background-color: rgb(240, 248, 255);
+    padding: 20px 0;
+}
+
+.sosyal a {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+
+.sosyal i {
+    font-size: 15px;
+}
+
+.sosyal a {
+    background-color: rgba(27, 20, 36, 0.85);
+    padding: 5px 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.sosyal a:focus {
+    background-color: rgba(27, 20, 36, 0.99);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.sosyal p {
+    padding: 0;
+    margin-top: 8px;
+    font-size: 12px;
+    color: rgb(27, 20, 36);
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row img {
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border: 3px solid rgb(255, 255, 255, 0.98);
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+.image-container img {
+    margin: 1px;
+}
+
+.row a {
+    color: rgb(240, 248, 255);
+    display: flex;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.image-with-text {
+    position: relative;
+    margin: 5px;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(27, 20, 36, 0.45);
+    border-radius: 20px;
+}
+
+#ogeler {
+    padding: 0 20px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-bottom: 35px;
+}
+
+.menu-item {
+    border: 2px solid rgb(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.menu-item-name {
+    font-size: 16px;
+    color: rgb(240, 248, 255, 0.9);
+}
+
+
+
+.menu-item-price {
+    font-size: 16px;
+    margin-left: auto;
+    color: rgb(240, 248, 255, 0.75);
+}
+
+.scroll-to-top {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.19);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p {
+    padding: 0;
+    font-size: 14px;
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.tag a {
+    color: rgb(255, 255, 2550, 0.8);
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 425px) {
+    h1 {
+        font-size: 34px;
+        padding-top: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .sosyal a {
+        font-size: 15px;
+    }
+
+    .sosyal i {
+        font-size: 18px;
+    }
+
+    .sosyal p {
+        font-size: 13px;
+    }
+
+    .row img {
+        width: 140px;
+        height: 140px;
+        border-radius: 12px;
+    }
+
+    #ogeler {
+        padding: 0 25px;
+    }
+
+    .menu-item-name {
+        font-size: 18px;
+    }
+    
+
+    .menu-item-price {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .tag a {
+        font-size: 15px;
+    }
+    .card-title {
+        font-size: 10%; /* Başlık font boyutu */
+    }
+
+    .card-text, .price {
+        font-size:10%; /* Açıklama ve fiyat font boyutu */
+    }
+}
