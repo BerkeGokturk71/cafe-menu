@@ -5,8 +5,8 @@ session_start();
 function checkLogin($username, $password) {
     // Gerçekleştirilecek işlem, örneğin bir veritabanı sorgusu
     // Örnek olarak sadece sabit kullanıcı adı ve şifre kullanıyoruz
-    $validUsername = "admin";
-    $validPassword = "123456";
+    $validUsername = "user";
+    $validPassword = "user12345";
 
     // Kullanıcı adı ve şifre doğru ise oturum başlat
     if ($username === $validUsername && $password === $validPassword) {

@@ -5,7 +5,8 @@
       
     $baslikErr = $baslik = "";
     $altBaslikErr = $altBaslik = "";
-    $resimErr = $resim = "";     
+    $resimErr = $resim = "";  
+    $priceErr = $price="";   
 ?>
 
 <?php 
@@ -23,6 +24,7 @@
         // Formdan gelen verileri alalım
         $baslik = $_POST['baslik'];
         $kategori = $_POST['category'];
+        $price = $_POST['price'];
         uploadImage($_FILES["imageFile"]);
         $resim = $_FILES["imageFile"]["name"];
         // Resim dosyasını yükleme işlemini burada gerçekleştirebilirsiniz
@@ -31,7 +33,7 @@
         $yeniVeri = array(
             "name" => $baslik,
             "image" => "images/".$resim, // Örnek bir resim yolu, bu kısmı resim dosyasını yükleme işlemine göre değiştirebilirsiniz
-            "price" => 0 // Fiyat gibi başka bir bilgi varsa buraya ekleyebilirsiniz
+            "price" => $price // Fiyat gibi başka bir bilgi varsa buraya ekleyebilirsiniz
         );
 
         // Kategoriyi bulalım
@@ -62,6 +64,11 @@
                     <div class="mb-3">
                         <label for="category">Başlık</label>
                         <input type="text" name="baslik" class="form-control" value="<?php echo $baslik;?>">
+                        <div class="text-danger"><?php echo $baslikErr;?></div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="category">Fiyat</label>
+                        <input type="text" name="price" class="form-control" value="<?php echo $price;?>">
                         <div class="text-danger"><?php echo $baslikErr;?></div>
                     </div>
                    

@@ -18,11 +18,10 @@
 
 <body>
     <?php include "functions.php"?>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="menu.php">Anasayfa</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       
@@ -42,10 +41,10 @@
                                 
                     <div class="col-6 col-md-3">
                         <div class="card">
-                            <img style="padding: 8%;border-radius:20px; "  src="<?php echo $items['image']?>" class="card-img-top" alt="...">
+                            <img src="<?php echo $items['image']?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <p class="card-text"><?php echo $items['name']?></p>
-                                <p class="price"><?php echo '$' . rand(10, 100)?></p>
+                                <p class="price"><?php echo $items['price'] . ' ₺'?></p>
                             </div>
                         </div>
                     </div>

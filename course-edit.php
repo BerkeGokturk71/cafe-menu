@@ -31,6 +31,7 @@
         $baslik = $_POST['baslik'];
         $altBaslik = $_POST['altBaslik'];
         $resim = $_FILES["imageFile"]["name"];
+        $price = $_POST['price'];
 
         // Resim dosyasını yükleme işlemini burada gerçekleştirebilirsiniz
         uploadImage($_FILES["imageFile"]);
@@ -40,6 +41,7 @@
             foreach ($category['items'] as &$item) {
                 if ($item['name'] == $id) {
                     $item['name'] = $baslik;
+                    $item['price'] =$price;
                     $item['image'] = "images/" . $resim;
                     break 2; // İç içe döngüden çık
                 }
@@ -65,6 +67,10 @@
                     <div class="mb-3">
                         <label for="baslik">Başlık</label>
                         <input type="text" name="baslik" class="form-control" value="<?php echo $selectedItem['name']; ?>">
+                    </div>
+                    <div class="mb-3">
+                        <label for="price">Fiyat</label>
+                        <input type="text" name="price" class="form-control" value="<?php echo $selectedItem['price']; ?>">
                     </div>
                     <div class="input-group mb-3">
                         <input type="file" name="imageFile" id="imageFile" class="form-control">

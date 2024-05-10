@@ -44,6 +44,7 @@ body {
 h1 {
     font-size: 30px;
     padding-top: 50px;
+    color: #6878ad;
 }
 
 h2 {
@@ -55,7 +56,8 @@ h2 {
 p {
     padding: 3px 20px;
     font-size: 12px;
-    color: rgb(255, 255, 255, 0.75);
+    color: #4b5a8b;
+
 }
 
 a {
